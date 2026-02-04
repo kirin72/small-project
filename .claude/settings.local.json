@@ -1,3 +1,19 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(echo:*)",
+      "Bash(ps:*)",
+      "Bash(where:*)",
+      "Bash(grep:*)",
+      "Bash(git:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(chmod:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(claude:*)",
+      "Bash(ls:*)"
+    ]
+  },
   "outputStyle": "Beginner Friendly"
 }
