@@ -1,5 +1,7 @@
-/* Tailwind CSS v4 임포트 */
-@import "tailwindcss";
+/* Tailwind CSS v3 directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* shadcn/ui 및 커스텀 CSS 변수 정의 */
 @layer base {
@@ -74,7 +76,7 @@
 /* 전역 기본 스타일 */
 @layer base {
   * {
-    border-color: hsl(var(--border));
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
